@@ -1,0 +1,17 @@
+job_sites:
+  crabi:
+    url: https://boards.greenhouse.io/crabi
+    query: .opening
+    vacancy: '.app-title'
+    ubicacion: ''
+    descripcion: ''
+
+  cabify:
+    url:  https://boards.greenhouse.io/cabify
+    query: class="opening" department_id
+  mensajeros_urbanos:
+    url: https://boards.greenhouse.io/mensajerosurbanos
+    query: class="opening" department_id
+  nubank:
+    url: https://boards.greenhouse.io/nubank
+    query: class="opening" department_id
