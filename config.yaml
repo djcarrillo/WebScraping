@@ -1,17 +1,36 @@
 job_sites:
   crabi:
     url: https://boards.greenhouse.io/crabi
-    query: .opening
-    vacancy: '.app-title'
-    ubicacion: ''
-    descripcion: ''
+    queries:
+      home_page: .opening
+      vacancy: .app-title
+      ubicacion: .location
+      descripcion: p, class_ \= \'\', id\=\'content\'
+
 
   cabify:
     url:  https://boards.greenhouse.io/cabify
-    query: class="opening" department_id
-  mensajeros_urbanos:
+    queries:
+      home_page: .opening
+      vacancy: .app-title
+      ubicacion: .location
+      descripcion: ul, class_ \= \'\',id\=\'content\'
+
+
+
+  mensajerosurbanos:
     url: https://boards.greenhouse.io/mensajerosurbanos
-    query: class="opening" department_id
+    queries:
+      home_page: .opening
+      vacancy: .app-title
+      ubicacion: .location
+      descripcion: ul, class_ \= \'\',id\=\'content\'
+
+
   nubank:
     url: https://boards.greenhouse.io/nubank
-    query: class="opening" department_id
+    queries:
+      home_page: .opening
+      vacancy: .app-title
+      ubicacion: .location
+      descripcion: ul, class_ \= \'\',id\=\'content\'
