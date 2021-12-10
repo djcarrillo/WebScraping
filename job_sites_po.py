@@ -1,3 +1,4 @@
+import datetime
 import bs4
 import requests
 from common import config
@@ -61,3 +62,8 @@ class Jobvacancy(New_site):
     def description(self):
         result_description = self._select(self._queries['descripcion'])
         return result_description[0].text.strip() if len(result_description) else ''
+
+    @property
+    def fecha_carga(self):
+        now = datetime.datetime.now()
+        return '{datetime}'.format(datetime=now.strftime('%Y%m%d'))
