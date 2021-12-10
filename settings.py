@@ -1,7 +1,7 @@
 import os
 
-#Conexión Google Cloud.
-#os.system('export $(cat .env.example | grep -v ^# | xargs)')
+# Conexión Google Cloud.
+# os.system('export $(cat .env.example | grep -v ^# | xargs)')
 
 
 driver = os.getenv('driver')
