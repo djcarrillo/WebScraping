@@ -1,7 +1,7 @@
 # WebScraping
 
-Este es un desarrollo de Web Scraping de tres paginas indexodoras de vacantes de empleo. 
-Se plantea como un servidor a consultar con ayuda de la libreria Fast API, selenium y beautifulsoup.
+Este es un desarrollo de Web Scraping de cuatro paginas con ofertas de empleo. 
+Se plantea como un servidor a consultar con ayuda de la libreria Fast API y beautifulsoup.
  
  Las paginas a Consultar son:
  
